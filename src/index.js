@@ -6,12 +6,15 @@ import { createRoot } from "react-dom/client";
 // Import Pages: 
 
 // Import Utilites
+import ErrorPage from "./components/utilities/errorPage";
+import FetchForHomepage from "./components/utilities/fetchForHomepage";
+import Homepage from "./components/utilities/homepage";
 
 // Browser Router 
 const router = createBrowserRouter([
     {
         path:"/",
-        element: <FetchForHomePage />,
+        element: <FetchForHomepage />,
         errorElement: <ErrorPage />,
         children: [
             {

@@ -1,8 +1,8 @@
 // Import
 import React, { useState, useEffect } from "react";
 import { Outlet, useNavigate } from "react-router-dom";
-import Navbar from "./navbar";
-import Footer from "./footer";
+import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 // Initial Fetch
 const FetchForHomepage = () => {
