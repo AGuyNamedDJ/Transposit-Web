@@ -57,31 +57,31 @@ The project structure is as follows:
 ### src/
 
     • components/: Contains all the reusable components.
-    • pages/: Contains the page components.
-    • admin-support/
-    • authentication/
-    • dashboard/
-    • financial/
-    • AccountDetails.js
-    • AccountOverview.js
-    • DepositDetails.js
-    • IncomingDeposits.js
-    • TransactionDetails.js
-    • Transactions.js
-    • rules-reporting/
-    • DistributionRules.js
-    • EditDistributionRules.js
-    • Reports.js
-    • utilities/: Contains utility components.
-    • ErrorPage.js
-    • FetchForHomepage.js
-    • Footer.js
-    • HelpPage.js
-    • Homepage.js
-    • Navbar.js
-    • PrivacyPolicy.js
-    • Template.js
-    • index.js: The entry point for the React application.
+        • pages/: Contains the page components.
+            • admin-support/
+            • authentication/
+            • dashboard/
+            • financial/
+            • AccountDetails.js
+            • AccountOverview.js
+            • DepositDetails.js
+            • IncomingDeposits.js
+            • TransactionDetails.js
+            • Transactions.js
+            • rules-reporting/
+            • DistributionRules.js
+            • EditDistributionRules.js
+            • Reports.js
+        • utilities/: Contains utility components.
+            • ErrorPage.js
+            • FetchForHomepage.js
+            • Footer.js
+            • HelpPage.js
+            • Homepage.js
+            • Navbar.js
+            • PrivacyPolicy.js
+            • Template.js
+        • index.js: The entry point for the React application.
 
 ---
 
